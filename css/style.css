@@ -1,0 +1,330 @@
+/* Обнуляющий стиль */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+body {
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+
+
+}
+
+.explanation {
+	padding-top: 394px;
+	background: #e8e8e8;
+	min-width: 290px;
+	text-align: center;
+}
+
+.explanation__text {
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+.page {
+	background: #e8e8e8;
+	padding: 123px 309px 104px 0;
+	min-height: 100%;
+}
+
+.main-title {
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 23px;
+	letter-spacing: 3px;
+}
+
+.simple-list li {
+	background: url(../img/check\ icon.svg) left top no-repeat;
+	padding-left: 35px;
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #273d46;
+}
+
+.simple-list li:nth-child(1) {
+	text-decoration: line-through;
+
+	margin-bottom: 12px;
+}
+
+.simple-list li:nth-child(2) {
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.simple-list li:nth-child(3) {
+	font-style: italic;
+	margin-bottom: 16px;
+}
+
+.simple-list li:nth-child(4) {
+	text-transform: uppercase;
+	margin-bottom: 77px;
+}
+
+
+
+.hover-list li {
+	background: url(../img/check\ icon.svg) left top no-repeat;
+	padding-left: 35px;
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	color: #273d46;
+	line-height: 18px;
+}
+
+.hover-list li:nth-child(1) {
+	margin-bottom: 14px;
+}
+
+.hover-list li:nth-child(2) {
+	margin-bottom: 18px;
+}
+
+.hover-list li:nth-child(2):hover {
+	color: #d55a5a;
+	background: url(../img/check\ icon.png) left top no-repeat;
+}
+
+
+.hover-list li:nth-child(3) {
+	margin-bottom: 18px;
+}
+
+.hover-list li:nth-child(4) {
+	margin-bottom: 113px;
+}
+
+.simple-button {
+	margin-left: 25px;
+	display: inline-block;
+	border-radius: 35px;
+	width: 199px;
+	line-height: 44px;
+	background: #80b7b3;
+	text-align: center;
+	box-shadow: 6px 6px 40px rgba(128, 183, 179, 0.54);
+	margin-right: 93px;
+	margin-bottom: 93px;
+}
+
+.simple-button__text {
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: 3px;
+	margin-right: 6px;
+}
+
+.simple-button__img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.second-button {
+	display: inline-block;
+	padding-right: 93px;
+
+}
+
+.second-button__text {
+	display: block;
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+.hover-button {
+	display: inline-block;
+	border-radius: 35px;
+	width: 199px;
+	line-height: 44px;
+	background: #80b7b3;
+	text-align: center;
+	box-shadow: 6px 6px 40px rgba(128, 183, 179, 0.54);
+	margin-top: 12px;
+}
+
+.hover-button:hover {
+	background: #3a5856;
+}
+
+.hover-button__text {
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: 3px;
+	margin-right: 6px;
+}
+
+.hover-button__img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.third-button {
+	display: inline-block;
+}
+
+.third-button__text {
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+.active-button {
+	display: inline-block;
+	border-radius: 35px;
+	width: 199px;
+	line-height: 44px;
+	background: #80b7b3;
+	text-align: center;
+	box-shadow: 6px 6px 40px rgba(128, 183, 179, 0.54);
+	margin-top: 11px;
+}
+
+.active-button:active {
+	background: #818181;
+	box-shadow: none;
+}
+
+.active-button__text {
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: 3px;
+	margin-right: 6px;
+}
+
+.active-button__img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.simple-textbox {
+	border: 1px solid #b0b0b0;
+	height: 52px;
+	width: 294px;
+	margin-right: 74px;
+}
+
+.focus-field {
+	display: inline-block;
+}
+
+.focus-field__text {
+	font-family: Arial, "Helvetica Neue", Helvetica, serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+.focus-textbox {
+	margin-top: 17px;
+	border: 1px solid #b0b0b0;
+	height: 52px;
+	width: 294px;
+}
+
+.focus-textbox:focus {
+	border: 1px solid #7fbed5;
+	box-shadow: 0px 0px 20px rgba(127, 190, 213, 0.93);
+}
